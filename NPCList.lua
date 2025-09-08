@@ -2127,7 +2127,7 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_entrance_inner_2", {
   ["0xF13000F1EC276B44"] = CROSS, -- Vampiric Gloomwing
 })
 
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_entrance_gnarlSTAR", {
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_entrance_gnarlmoon", {
   ["0xF13000F1F2276B51"] = TRIANGLE, -- Shadowclaw Rager
   ["0xF13000F1F0276B4F"] = CROSS, -- Shadowclaw Darkbringer
   ["0xF13000F1F1276B54"] = SQUARE, -- Shadowclaw Worgen
@@ -2148,7 +2148,7 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_entrance_inner_1", {
   ["0xF13000F1F1276B46"] = SKULL,
 })
 
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "gnarlSTAR", {
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "gnarlmoon_owls", {
   ["0xF13000EA5E278C14"] = STAR, -- blue owl 1
   ["0xF13000EA5E278C15"] = CIRCLE, -- blue owl 2
   ["0xF13000EA5D278C16"] = DIAMOND, -- red owl 1
@@ -2250,7 +2250,7 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_library_8", {
   ["0xF13000F1F4276BAE"] = SKULL, -- Manascale Drake
 })
 
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "incantagos", {
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "incantagos_seekers", {
   ["0xF13000EA55278B84"] = CIRCLE, -- Manascale Ley-Seeker
   ["0xF13000EA55278B83"] = CROSS, -- Manascale Ley-Seeker
   ["0xF13000EA55278B82"] = DIAMOND, -- Manascale Ley-Seeker
