@@ -1122,7 +1122,7 @@ local function handleCommands(msg, editbox)
     return
   end
 
-  if command == "enabled" then
+  if command == "enable" then
     AutoMarkerDB.settings.enabled = not AutoMarkerDB.settings.enabled
     auto_print(L["AutoMarker is now ["] ..
         (AutoMarkerDB.settings.enabled and c(L["enabled"], color.green) or c(L["disabled"], color.red)) .. "]")
