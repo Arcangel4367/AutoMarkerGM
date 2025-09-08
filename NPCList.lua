@@ -1241,8 +1241,8 @@ local errenius = "0xF13000ED4B2739FA"
 local errenius_mark = CIRCLE
 
 addToDefaultNpcsToMark(L["Emerald Sanctum"], "entrance", {
-  ["0xF13000ED482739F2"] = SQUARE, -- sancutum wyrm pat
-  ["0xF13000ED4A273A45"] = MOON, -- sancutum scalebane pat
+  ["0xF13000ED482739F2"] = CIRCLE, -- sancutum wyrm pat
+  ["0xF13000ED4A273A45"] = STAR, -- sancutum scalebane pat
   ["0xF13000ED4A273A43"] = TRIANGLE, -- sancutum scalebane pat
 
   -- dreamer_pack_left_1
@@ -1268,7 +1268,7 @@ addToDefaultNpcsToMark(L["Emerald Sanctum"], "entrance", {
 addToDefaultNpcsToMark(L["Emerald Sanctum"], "wyrmkin_pack_right_2", {
   ["0xF13000ED492739F3"] = SKULL, -- sanctum wyrmkin
   ["0xF13000ED492739F4"] = CROSS, -- sanctum wyrmkin
-  ["0xF13000ED472739F5"] = SQUARE, -- sanctum dragonkin
+  ["0xF13000ED472739F5"] = CIRCLE, -- sanctum dragonkin
   ["0xF13000ED462739F6"] = UNMARKED, -- sanctum dreamer
   ["0xF13000ED462739F7"] = UNMARKED, -- sanctum dreamer
   ["0xF13000ED462739F8"] = UNMARKED, -- sanctum dreamer
@@ -1290,11 +1290,11 @@ addToDefaultNpcsToMark(L["Emerald Sanctum"], "dreamer_pack_left_2", {
 })
 
 addToDefaultNpcsToMark(L["Emerald Sanctum"], "wyrmkin_pack_left_1", {
-  ["0xF13000ED47273A1C"] = SQUARE, -- sanctum dragonkin
-  ["0xF13000ED4A273A1A"] = MOON, -- sanctum scalebane
+  ["0xF13000ED47273A1C"] = CIRCLE, -- sanctum dragonkin
+  ["0xF13000ED4A273A1A"] = STAR, -- sanctum scalebane
   ["0xF13000ED49273A18"] = CROSS, -- sanctum wyrmkin
   ["0xF13000EF1C275495"] = SKULL, -- sanctum supressor
-  ["0xF13000ED47273A1E"] = STAR, -- sanctum dragonkin
+  ["0xF13000ED47273A1E"] = TRIANGLE, -- sanctum dragonkin
 
   [errenius] = errenius_mark, -- increase chance of spotting him early
 })
@@ -1333,7 +1333,7 @@ addToDefaultNpcsToMark(L["Emerald Sanctum"], "wyrmkin_pack_left_3", {
   ["0xF13000ED4A273A48"] = CROSS, -- sanctum scalebane
   ["0xF13000ED4A273A49"] = SKULL, -- sanctum scalebane
   ["0xF13000ED49273A47"] = STAR, -- sanctum wyrmkin -- ??
-  ["0xF13000ED47273A1C"] = SQUARE, -- sanctum dragonkin
+  ["0xF13000ED47273A1C"] = CIRCLE, -- sanctum dragonkin
 
   [errenius] = errenius_mark, -- increase chance of spotting him early
 })
@@ -1359,11 +1359,11 @@ addToDefaultNpcsToMark(L["Emerald Sanctum"], "wyrmkin_pack_right_3", {
   ["0xF13000ED4627549E"] = UNMARKED, -- sanctum dreamer
   ["0xF13000ED462754A0"] = UNMARKED, -- sanctum dreamer
   ["0xF13000ED462754A1"] = UNMARKED, -- sanctum dreamer
-  --["0xF13000ED462754A2"] = UNMARKED, -- sanctum dreamer
+  ["0xF13000ED462754A2"] = UNMARKED, -- sanctum dreamer
   ["0xF13000EF1C275499"] = SKULL, -- sanctum supressor
   ["0xF13000ED4727549C"] = STAR, -- sanctum dragonkin
   ["0xF13000ED4A27549D"] = CROSS, -- sanctum scalebane
-  ["0xF13000ED4A27549B"] = SQUARE, -- sanctum scalebane
+  ["0xF13000ED4A27549B"] = CIRCLE, -- sanctum scalebane
 })
 
 addToDefaultNpcsToMark(L["Emerald Sanctum"], "solnius", {
