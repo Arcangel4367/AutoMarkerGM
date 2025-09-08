@@ -662,7 +662,7 @@ end
 
 -- initial loading
 autoMarker:SetScript("OnEvent", function ()
-  if event == "ADDON_LOADED" and arg1 == "AutoMarker" then
+  if event == "ADDON_LOADED" and arg1 == "AutoMarkerGM" then
     autoMarker:Initialize()
     autoMarker:SetScript("OnEvent", function ()
       if AutoMarkerDB.settings.enabled and autoMarker[event]then
