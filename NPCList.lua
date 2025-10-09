@@ -783,8 +783,8 @@ addToDefaultNpcsToMark(L["Ahn'Qiraj"], "guardian_4", {
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "sartura", {
   ["0xF130003E70015662"]  = CROSS, -- Sartura's Royal Guard
   ["0xF130003E70015661"]  = CIRCLE, -- Sartura's Royal Guard
-  ["0xF130003E70015663"]  = STAR, -- Sartura's Royal Guard
-  ["0xF130003C9C015660"]  = SKULL, -- Battleguard Sartura
+  ["0xF130003E70015663"]  = SKULL, -- Sartura's Royal Guard
+  ["0xF130003C9C015660"]  = STAR, -- Battleguard Sartura
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "soldiers", {
@@ -1421,6 +1421,11 @@ addToDefaultNpcsToMark(L["Molten Core"], "giants4", {
   ["0xF130002D8B00DD87"] = CROSS, -- destroyer
 })
 
+addToDefaultNpcsToMark(L["Molten Core"], "garreles", {
+  ["0xF130002D9100DD9E"] = SKULL,
+  ["0xF130002D9100DDD7"] = CROSS, -- destroyer
+})
+
 addToDefaultNpcsToMark(L["Molten Core"], "pats2", {
   ["0xF130002D9900DE1E"] = CIRCLE,
   ["0xF130002D9900DE1A"] = TRIANGLE,
@@ -1489,6 +1494,53 @@ addToDefaultNpcsToMark(L["Molten Core"], "sulfuron", {
   ["0xF130002D8E00DD67"] = CROSS,
   ["0xF130002F4200DD65"] = TRIANGLE,
   ["0xF130002D8E00DD6A"] = SKULL,
+})
+
+addToDefaultNpcsToMark(L["Molten Core"], "Golemmagg Elementals1", {
+  ["0xF130002D9100DDD6"] = CROSS,
+  ["0xF130002D9400DDD0"] = SKULL,
+})
+
+addToDefaultNpcsToMark(L["Molten Core"], "Golemagg Elementals2", {
+  ["0xF130002F2C00DDC8"] = STAR,
+  ["0xF130002F2C00DDAF"] = CIRCLE,
+  ["0xF130002D9300DDC7"] = CROSS,
+  ["0xF130002D9200DDAE"] = SKULL,
+})
+
+addToDefaultNpcsToMark(L["Molten Core"], "Golemboss", {
+  ["0xF13000FDFC278C2C"] = CROSS,
+  ["0xF13000FDFD278C2D"] = SKULL,
+})
+
+addToDefaultNpcsToMark(L["Molten Core"], "dwarves1", {
+  ["0xF13000CBB6278CB8"] = SKULL,
+	["0xF13000CBB8278CB7"] = CROSS,
+	["0xF13000CBB6278CB9"] = CIRCLE,
+})
+
+addToDefaultNpcsToMark(L["Molten Core"], "dwarves2", {
+  ["0xF13000CBB6278CC5"] = SKULL,
+	["0xF13000CBB6278CC6"] = CROSS,
+	["0xF13000CBB6278CB3"] = CIRCLE,
+})
+
+addToDefaultNpcsToMark(L["Molten Core"], "dwarves3", {
+  ["0xF13000CBB7278CE3"] = SKULL,
+	["0xF13000CBB7278CE2"] = CROSS,
+	["0xF13000CBB7278CE1"] = CIRCLE,
+})
+
+addToDefaultNpcsToMark(L["Molten Core"], "dwarves4", {
+  ["0xF13000CBB6278CCB"] = SKULL,
+	["0xF13000CBB6278CCC"] = CROSS,
+})
+
+addToDefaultNpcsToMark(L["Molten Core"], "dwarves5", {
+  ["0xF13000CBB6278CBF"] = SKULL,
+	["0xF13000CBB7278CBE"] = CIRCLE,
+	["0xF13000CBB7278CBD"] = STAR,
+	["0xF13000CBB6278CC0"] = CROSS,
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "domo", {
@@ -1668,23 +1720,23 @@ addToDefaultNpcsToMark(L["Blackwing Lair"], "vael", {
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "wrym1", {
-  ["0xF1300030B1014A2E"] = CIRCLE,
-  ["0xF1300030B1014A2D"] = DIAMOND,
+  ["0xF1300030B1014A2E"] = MOON,
+  ["0xF1300030B1014A2D"] = SQUARE,
   ["0xF1300030B3014A27"] = TRIANGLE,
   ["0xF1300030B0014A2C"] = SKULL,
   ["0xF1300030B0014A2B"] = CROSS,
-  ["0xF1300030AF014A33"] = SQUARE,
-  ["0xF1300030AF014A34"] = MOON,
+  ["0xF1300030AF014A33"] = STAR,
+  ["0xF1300030AF014A34"] = CIRCLE,
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "wrym2", {
-  ["0xF1300030B1014A30"] = STAR,
-  ["0xF1300030B1014A2F"] = CIRCLE,
+  ["0xF1300030B1014A30"] = MOON,
+  ["0xF1300030B1014A2F"] = SQUARE,
   ["0xF1300030B3014A28"] = TRIANGLE,
   ["0xF1300030B0014A29"] = SKULL,
   ["0xF1300030B0014A2A"] = CROSS,
-  ["0xF1300030AF014A31"] = MOON,
-  ["0xF1300030AF014A32"] = SQUARE,
+  ["0xF1300030AF014A31"] = STAR,
+  ["0xF1300030AF014A32"] = CIRCLE,
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "supress1", {
@@ -1834,10 +1886,10 @@ addToDefaultNpcsToMark(L["Blackwing Lair"], "lab7", {
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "wyrmguard2", {
-  ["0xF1300030AC014A9B"] = SKULL,
+  ["0xF1300030AC014A9B"] = STAR,
   ["0xF1300030AC014A9A"] = CROSS,
   ["0xF1300030AC014A94"] = CIRCLE,
-  ["0xF130003841014A93"] = STAR,
+  ["0xF130003841014A93"] = SKULL,
   ["0xF130002ECD014F17"] = CIRCLE, -- flamegor
   ["0xF130003909014F14"] = TRIANGLE, -- ebonroc
 })
