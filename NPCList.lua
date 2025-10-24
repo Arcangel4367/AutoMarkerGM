@@ -1544,14 +1544,14 @@ addToDefaultNpcsToMark(L["Molten Core"], "dwarves5", {
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "domo", {
-  ["0xF130002D90278D51"] = DIAMOND, -- elite
-  ["0xF130002D90278D52"] = MOON, -- elite
-  ["0xF130002D90278D53"] = SQUARE, -- elite
-  ["0xF130002D90278D54"] = TRIANGLE, -- elite
-  ["0xF130002D8F278D55"] = SKULL, -- healer
-  ["0xF130002D8F278D56"] = CIRCLE, -- healer
-  ["0xF130002D8F278D57"] = STAR, -- healer
-  ["0xF130002D8F278D58"] = CROSS, -- healer
+  ["0xF130002D90278D51"] = SKULL, -- elite
+  ["0xF130002D90278D52"] = STAR, -- elite
+  ["0xF130002D90278D53"] = CIRCLE, -- elite
+  ["0xF130002D90278D54"] = CROSS, -- elite
+  ["0xF130002D8F278D55"] = MOON, -- healer
+  ["0xF130002D8F278D56"] = DIAMOND, -- healer
+  ["0xF130002D8F278D57"] = TRIANGLE, -- healer
+  ["0xF130002D8F278D58"] = SQUARE, -- healer
   ["0xF130002EF2278D50"] = UNMARKED, -- domo
 })
 
@@ -2115,15 +2115,16 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "moroes5", {
 
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_entrance_patrols", {
-  ["0xF13000F1F0276B43"] = TRIANGLE, -- Shadowclaw Darkbringer
-  ["0xF13000F1F2276B2C"] = CROSS, -- Shadowclaw Rager
-  ["0xF13000F1ED276B19"] = SKULL, -- Greater Gloomwing
+  
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_entrance_1", {
-  ["0xF13000F1EE276B1F"] = SKULL, -- Spectral Worker
-  ["0xF13000F1EE276B20"] = CIRCLE, -- Spectral Worker
-  ["0xF13000F1EE276B21"] = CROSS, -- Spectral Worker
+  ["0xF13000F1EE276B1F"] = CROSS, -- Spectral Worker
+  ["0xF13000F1EE276B20"] = STAR, -- Spectral Worker
+  ["0xF13000F1EE276B21"] = CIRCLE, -- Spectral Worker
+  ["0xF13000F1F0276B43"] = TRIANGLE, -- Shadowclaw Darkbringer
+  ["0xF13000F1F2276B2C"] = SQUARE, -- Shadowclaw Rager
+  ["0xF13000F1ED276B19"] = SKULL, -- Greater Gloomwing
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_entrance_2", {
