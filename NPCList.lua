@@ -1544,10 +1544,10 @@ addToDefaultNpcsToMark(L["Molten Core"], "dwarves5", {
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "domo", {
-  ["0xF130002D90278D51"] = SKULL, -- elite
-  ["0xF130002D90278D52"] = STAR, -- elite
-  ["0xF130002D90278D53"] = CIRCLE, -- elite
-  ["0xF130002D90278D54"] = CROSS, -- elite
+  ["0xF130002D90278D51"] = STAR, -- elite
+  ["0xF130002D90278D52"] = SKULL, -- elite
+  ["0xF130002D90278D53"] = CROSS, -- elite
+  ["0xF130002D90278D54"] = CIRCLE, -- elite
   ["0xF130002D8F278D55"] = MOON, -- healer
   ["0xF130002D8F278D56"] = DIAMOND, -- healer
   ["0xF130002D8F278D57"] = TRIANGLE, -- healer
@@ -2645,5 +2645,6 @@ addToDefaultNpcsToMark(L["Stratholme"], "dead_pats", {
   -- ["0xF130002A3900D22F"] = STAR,-- Stonespine -- need the mark for eye
   ["0xF1300028AB11E66C"] = STAR,-- Eye of Naxxramas
 })
+
 
 
