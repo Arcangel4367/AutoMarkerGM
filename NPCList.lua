@@ -1394,7 +1394,7 @@ addToDefaultNpcsToMark(L["Molten Core"], "giants2", {
 
 addToDefaultNpcsToMark(L["Molten Core"], "lucifron", {
   ["0xF130002F5700DD1F"] = CROSS,
-  ["0xF130002F5600DD1D"] = SKULL,
+  ["0xF130002F5600DD1D"] = DIAMOND,
   ["0xF130002F5700DD1E"] = CIRCLE,
 })
 
@@ -2306,8 +2306,8 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_library_8", {
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "incantagos_seekers", {
   ["0xF13000EA55278B84"] = CIRCLE, -- Manascale Ley-Seeker
   ["0xF13000EA55278B83"] = CROSS, -- Manascale Ley-Seeker
-  ["0xF13000EA55278B82"] = DIAMOND, -- Manascale Ley-Seeker
-  ["0xF13000EA55278B81"] = TRIANGLE, -- Manascale Ley-Seeker
+  ["0xF13000EA55278B82"] = STAR, -- Manascale Ley-Seeker
+  ["0xF13000EA55278B81"] = SKULL, -- Manascale Ley-Seeker
   ["0xF13000F1FA276A32"] = UNMARKED, -- Ley-Watcher Incantagos
 })
 
@@ -2316,7 +2316,7 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_library_upper_1", {
   ["0xF13000F1F72783E5"] = MOON, -- Manascale Suppressor
   ["0xF13000F1F62783E9"] = SKULL, -- Manascale Dragon Guard
   ["0xF13000F1F62783E7"] = CROSS, -- Manascale Dragon Guard
-  ["0xF13000EA54276BBE"] = UNMARKED, -- Manascale Whelp
+  ["0xF13000EA54276BBE"] = TRIANGLE, -- Manascale Whelp
   ["0xF13000EA54276BBF"] = UNMARKED, -- Manascale Whelp
   ["0xF13000EA54276BBB"] = UNMARKED, -- Manascale Whelp
   ["0xF13000EA54276BBC"] = UNMARKED, -- Manascale Whelp
@@ -2455,17 +2455,17 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_chess", {
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_foyer_1", {
-  ["0xF13000F203276D54"] = CIRCLE, -- Lingering Arcanist
-  ["0xF13000F205276D55"] = STAR, -- Lingering Enchanter
-  ["0xF13000F202276D53"] = SKULL, -- Lingering Magus
-  ["0xF13000F204276D56"] = CROSS, -- Lingering Astrologist
+  ["0xF13000F203276D54"] = CROSS, -- Lingering Arcanist
+  ["0xF13000F205276D55"] = TRIANGLE, -- Lingering Enchanter
+  ["0xF13000F202276D53"] = DIAMOND, -- Lingering Magus
+  ["0xF13000F204276D56"] = SKULL, -- Lingering Astrologist
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_foyer_2", {
-  ["0xF13000F202276D57"] = SKULL, -- Lingering Magus
-  ["0xF13000F205276D5A"] = STAR, -- Lingering Enchanter
-  ["0xF13000F203276D5B"] = CIRCLE, -- Lingering Arcanist
-  ["0xF13000F204276D58"] = CROSS, -- Lingering Astrologist
+  ["0xF13000F202276D57"] = DIAMOND, -- Lingering Magus
+  ["0xF13000F205276D5A"] = TRIANGLE, -- Lingering Enchanter
+  ["0xF13000F203276D5B"] = CROSS, -- Lingering Arcanist
+  ["0xF13000F204276D58"] = SKULL, -- Lingering Astrologist
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_foyer_3", {
@@ -2588,8 +2588,8 @@ addToDefaultNpcsToMark(L["The Rock of Desolation"], "pre_rupturan_1", {
 addToDefaultNpcsToMark(L["The Rock of Desolation"], "rupturan_exile", {
   ["0xF13000EA38073D39"] = SKULL, -- crumbling exile
   ["0xF13000EA38073D38"] = CROSS, -- crumbling exile
-  ["0xF13000EA38073D37"] = CIRCLE, -- crumbling exile
-  ["0xF13000EA38073D36"] = STAR, -- crumbling exile
+  ["0xF13000EA38073D37"] = SQUARE, -- crumbling exile
+  ["0xF13000EA38073D36"] = DIAMOND, -- crumbling exile
   ["0xF13000EA39073D35"] = UNMARKED,-- Rupturan the Broken
 })
 
@@ -2632,6 +2632,9 @@ addToDefaultNpcsToMark(L["Stratholme"], "live_pats", {
   ["0xF1300028AE00D2C1"] = SQUARE, -- "Patchwork Horror"
   ["0xF1300028AE00D2C2"] = CIRCLE, -- "Patchwork Horror"
   ["0xF1300028AE00D2B7"] = DIAMOND, -- "Patchwork Horror"
+  ["0xF13000293E00DF85"] = MOON, -- "Hearthsinger Forresten"
+  ["0xF13000293E00DF84"] = MOON, -- "Hearthsinger Forresten"
+  ["0xF130002899104DD4"] = CROSS -- "Skul"
 })
 
 addToDefaultNpcsToMark(L["Stratholme"], "dead_pats", {
