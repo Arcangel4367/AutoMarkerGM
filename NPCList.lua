@@ -2402,11 +2402,11 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_observatory_6", {
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_echo_pre_1", {
-  ["0xF13000F203276D2F"] = STAR, -- Lingering Arcanist
-  ["0xF13000F205276D33"] = TRIANGLE, -- Lingering Arcanist
+  ["0xF13000F203276D2F"] = SKULL, -- Lingering Arcanist
+  ["0xF13000F205276D33"] = STAR, -- Lingering Arcanist
   ["0xF13000F204276D32"] = SKULL, -- Lingering Astrologist
-  ["0xF13000F202276D31"] = CROSS, -- Lingering Magus
-  ["0xF13000F202276D30"] = CIRCLE, -- Lingering Magus
+  ["0xF13000F202276D31"] = DIAMOND, -- Lingering Magus
+  ["0xF13000F202276D30"] = TRIANGLE, -- Lingering Magus
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_echo_pre_2_1", {
