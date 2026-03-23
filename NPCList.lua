@@ -1517,12 +1517,12 @@ addToDefaultNpcsToMark(L["Molten Core"], "dwarves1", {
   ["0xF13000CBB6278CB8"] = SKULL,
 	["0xF13000CBB8278CB7"] = CROSS,
 	["0xF13000CBB6278CB9"] = CIRCLE,
+  ["0xF13000CBB6278CB3"] = DIAMOND,
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "dwarves2", {
   ["0xF13000CBB6278CC5"] = SKULL,
 	["0xF13000CBB6278CC6"] = CROSS,
-	["0xF13000CBB6278CB3"] = CIRCLE,
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "dwarves3", {
@@ -1541,6 +1541,36 @@ addToDefaultNpcsToMark(L["Molten Core"], "dwarves5", {
 	["0xF13000CBB7278CBE"] = CIRCLE,
 	["0xF13000CBB7278CBD"] = STAR,
 	["0xF13000CBB6278CC0"] = CROSS,
+})
+
+addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_left_1", {
+  ["0xF13000CBB7278CD2"] = DIAMOND, -- pat
+  ["0xF13000CBB6278CD3"] = CIRCLE,
+  ["0xF13000CBB8278CD4"] = CROSS,
+  ["0xF13000CBB8278CD5"] = SKULL,
+})
+
+addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_left_2", {
+  ["0xF13000CBB6278CDD"] = CROSS,
+  ["0xF13000CBB6278CDE"] = SKULL,
+})
+
+addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_left_3", {
+  ["0xF13000CBB8278CDA"] = CROSS,
+  ["0xF13000CBB8278CDB"] = SKULL,
+  ["0xF13000CBB8278CDC"] = CIRCLE,
+})
+
+addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_left_4", {
+  ["0xF13000CBB7278CDF"] = SKULL,
+  ["0xF13000CBB6278CE0"] = CROSS,
+})
+
+addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_left_5", {
+  ["0xF13000CBB8278CC4"] = SKULL,
+  ["0xF13000CBB6278CC1"] = CIRCLE,
+  ["0xF13000CBB8278CC3"] = CROSS,
+  ["0xF13000CBB6278CC2"] = STAR,
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "domo", {
