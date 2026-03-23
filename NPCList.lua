@@ -1238,7 +1238,7 @@ addToDefaultNpcsToMark(L["Zul'Gurub"], "hakkar_large_2", {
 --/////////////// ES ///////////////
 
 local errenius = "0xF13000ED4B2739FA"
-local errenius_mark = CIRCLE
+local errenius_mark = SQUARE
 
 addToDefaultNpcsToMark(L["Emerald Sanctum"], "entrance", {
   ["0xF13000ED482739F2"] = CIRCLE, -- sancutum wyrm pat
@@ -1395,7 +1395,7 @@ addToDefaultNpcsToMark(L["Molten Core"], "giants2", {
 addToDefaultNpcsToMark(L["Molten Core"], "lucifron", {
   ["0xF130002F5700DD1F"] = CROSS,
   ["0xF130002F5600DD1D"] = DIAMOND,
-  ["0xF130002F5700DD1E"] = CIRCLE,
+  ["0xF130002F5700DD1E"] = SKULL,
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "imp_surgers", {
@@ -1545,9 +1545,9 @@ addToDefaultNpcsToMark(L["Molten Core"], "dwarves5", {
 
 addToDefaultNpcsToMark(L["Molten Core"], "domo", {
   ["0xF130002D90278D51"] = STAR, -- elite
-  ["0xF130002D90278D52"] = SKULL, -- elite
-  ["0xF130002D90278D53"] = CROSS, -- elite
-  ["0xF130002D90278D54"] = CIRCLE, -- elite
+  ["0xF130002D90278D52"] = CROSS, -- elite
+  ["0xF130002D90278D53"] = CIRCLE, -- elite
+  ["0xF130002D90278D54"] = SKULL, -- elite
   ["0xF130002D8F278D55"] = MOON, -- healer
   ["0xF130002D8F278D56"] = DIAMOND, -- healer
   ["0xF130002D8F278D57"] = TRIANGLE, -- healer
