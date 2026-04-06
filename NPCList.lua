@@ -2683,7 +2683,7 @@ addToDefaultNpcsToMark(L["Stratholme"], "dead_pats", {
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "entrance_1", {
   ["0xF13000F59C279368"] = CROSS, -- Withermaw Den Watcher
-  ["0xF13000F59B279367"] = SQUARE, -- Withermaw Tracker
+  ["0xF13000F59B279367"] = CIRCLE, -- Withermaw Tracker
   ["0xF13000F598279366"] = DIAMOND, -- Withermaw Pathfinder
   ["0xF13000F599279370"] = SKULL, -- Withermaw Totemic
 })
@@ -2691,21 +2691,21 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "entrance_1", {
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "entrance_2", {
   ["0xF13000F59627936B"] = SKULL, -- Withermaw Defiler
   ["0xF13000F59727936E"] = CROSS, -- Withermaw Shaman
-  ["0xF13000F599279735"] = SQUARE, -- Withermaw Totemic
+  ["0xF13000F599279735"] = CIRCLE, -- Withermaw Totemic
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "entrance_3", {
   ["0xF13000F596279739"] = SKULL, -- Withermaw Defiler
-  ["0xF13000F597279737"] = SQUARE, -- Withermaw Shaman
+  ["0xF13000F597279737"] = CIRCLE, -- Withermaw Shaman
   ["0xF13000F596279738"] = CROSS, -- Withermaw Defiler
-  ["0xF13000F59927936F"] = MOON, -- Withermaw Totemic -- random loner
+  ["0xF13000F59927936F"] = STAR, -- Withermaw Totemic -- random loner
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "right_lower_1", {
   ["0xF13000F59C279D57"] = CROSS, -- Withermaw Den Watcher
   ["0xF13000F596279D58"] = SKULL, -- Withermaw Defiler
-  ["0xF13000F598279D59"] = SQUARE, -- Withermaw Pathfinder
-  ["0xF13000F598279D5A"] = MOON, -- Withermaw Pathfinder
+  ["0xF13000F598279D59"] = CIRCLE, -- Withermaw Pathfinder
+  ["0xF13000F598279D5A"] = STAR, -- Withermaw Pathfinder
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "right_lower_loose", {
@@ -2728,7 +2728,7 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "right_ramp_1", {
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "right_ramp_2", {
   ["0xF13000F59F279D7E"] = SKULL, -- Corruption of Loktanag
   ["0xF13000F5A2279D81"] = CROSS, -- Foulheart Satyr
-  ["0xF13000F5A1279D7F"] = SQUARE, -- Foulheart Deceiver
+  ["0xF13000F5A1279D7F"] = CIRCLE, -- Foulheart Deceiver
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "right_ramp_3", {
@@ -2739,8 +2739,8 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "right_ramp_3", {
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "satyr_1", {
   ["0xF13000F5A2279D82"] = SKULL, -- Foulheart Satyr
   ["0xF13000F5A2279D83"] = CROSS, -- Foulheart Satyr
-  ["0xF13000F5A1279D84"] = SQUARE, -- Foulheart Deceiver
-  ["0xF13000F5A1279D85"] = MOON, -- Foulheart Deceiver
+  ["0xF13000F5A1279D84"] = CIRCLE, -- Foulheart Deceiver
+  ["0xF13000F5A1279D85"] = STAR, -- Foulheart Deceiver
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "satyr_2", {
@@ -2751,14 +2751,14 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "satyr_2", {
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "satyr_3", {
   ["0xF13000F5A2279D8B"] = SKULL, -- Foulheart Satyr
   ["0xF13000F5A3279D91"] = CROSS, -- Foulheart Trickster
-  ["0xF13000F5A2279D90"] = SQUARE, -- Foulheart Satyr
+  ["0xF13000F5A2279D90"] = CIRCLE, -- Foulheart Satyr
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "satyr_4", {
   ["0xF13000F5A3279D8F"] = SKULL, -- Foulheart Trickster
   ["0xF13000F5A4279D8D"] = CROSS, -- Foulheart Hellcaller
-  ["0xF13000F5A2279D8C"] = SQUARE, -- Foulheart Satyr
-  ["0xF13000F5A1279D8E"] = MOON, -- Foulheart Deceiver
+  ["0xF13000F5A2279D8C"] = CIRCLE, -- Foulheart Satyr
+  ["0xF13000F5A1279D8E"] = STAR, -- Foulheart Deceiver
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "satyr_5", {
@@ -2769,29 +2769,29 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "satyr_5", {
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "satyr_6", {
   ["0xF13000F5A1279D96"] = SKULL, -- Foulheart Deceiver
   ["0xF13000F5A4279D97"] = CROSS, -- Foulheart Hellcaller
-  ["0xF13000F5A4279D98"] = SQUARE, -- Foulheart Hellcaller
-  ["0xF13000F5A2279D95"] = MOON, -- Foulheart Satyr
+  ["0xF13000F5A4279D98"] = CIRCLE, -- Foulheart Hellcaller
+  ["0xF13000F5A2279D95"] = STAR, -- Foulheart Satyr
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "karrsh_2", {
   ["0xF13000F5D627973C"] = UNMARKED, -- Karrsh the Sentinel
   ["0xF13000F59627973E"] = SKULL, -- Withermaw Defiler
   ["0xF13000F59327973F"] = CROSS, -- Enraged Withermaw
-  ["0xF13000F593279740"] = MOON, -- Enraged Withermaw
-  ["0xF13000F593279741"] = SQUARE, -- Enraged Withermaw
+  ["0xF13000F593279740"] = STAR, -- Enraged Withermaw
+  ["0xF13000F593279741"] = CIRCLE, -- Enraged Withermaw
 })
 
 -- TODO: karrsh_1 has identical GUIDs/marks as left_upper_1 - need to resolve this over time
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "left_upper_1", {
   ["0xF13000F59C279D4F"] = SKULL, -- Withermaw Den Watcher
   ["0xF13000F599279D51"] = CROSS, -- Withermaw Totemic
-  ["0xF13000F59B279D50"] = SQUARE, -- Withermaw Tracker
+  ["0xF13000F59B279D50"] = CIRCLE, -- Withermaw Tracker
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "karrsh_1", {
   ["0xF13000F59C279D4F"] = CROSS, -- Withermaw Den Watcher
   ["0xF13000F599279D51"] = SKULL, -- Withermaw Totemic
-  ["0xF13000F59B279D50"] = SQUARE, -- Withermaw Tracker
+  ["0xF13000F59B279D50"] = CIRCLE, -- Withermaw Tracker
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "left_upper_2", {
@@ -2803,12 +2803,12 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "left_upper_2", {
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "left_upper_3", {
   ["0xF13000F593279725"] = SKULL, -- Enraged Withermaw
   ["0xF13000F593279722"] = CROSS, -- Enraged Withermaw
-  ["0xF13000F593279723"] = SQUARE, -- Enraged Withermaw
-  ["0xF13000F593279724"] = MOON, -- Enraged Withermaw
+  ["0xF13000F593279723"] = CIRCLE, -- Enraged Withermaw
+  ["0xF13000F593279724"] = STAR, -- Enraged Withermaw
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "left_upper_4", {
-  ["0xF13000F59727971C"] = SQUARE, -- Withermaw Shaman
+  ["0xF13000F59727971C"] = CIRCLE, -- Withermaw Shaman
   ["0xF13000F59927971D"] = CROSS, -- Withermaw Totemic
   ["0xF13000F59627971E"] = SKULL, -- Withermaw Defiler
   ["0xF13000F59327971F"] = UNMARKED, -- Enraged Withermaw
@@ -2819,14 +2819,14 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "left_upper_4", {
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "left_upper_6", {
   ["0xF13000F59927971B"] = SKULL, -- Withermaw Totemic
   ["0xF13000F59327971A"] = CROSS, -- Enraged Withermaw
-  ["0xF13000F593279719"] = SQUARE, -- Enraged Withermaw
-  ["0xF13000F593279718"] = MOON, -- Enraged Withermaw
+  ["0xF13000F593279719"] = CIRCLE, -- Enraged Withermaw
+  ["0xF13000F593279718"] = STAR, -- Enraged Withermaw
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "left_upper_7", {
   ["0xF13000F596279717"] = SKULL, -- Withermaw Defiler
   ["0xF13000F593279716"] = CROSS, -- Enraged Withermaw
-  ["0xF13000F593279715"] = SQUARE, -- Enraged Withermaw
+  ["0xF13000F593279715"] = CIRCLE, -- Enraged Withermaw
   ["0xF13000F593279713"] = UNMARKED, -- Enraged Withermaw
   ["0xF13000F593279714"] = UNMARKED, -- Enraged Withermaw
 })
@@ -2839,14 +2839,14 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "stump_1", {
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "stump_2", {
   ["0xF13000F59D27970B"] = CROSS, -- Withermaw Ursa
   ["0xF13000F59927970C"] = SKULL, -- Withermaw Totemic
-  ["0xF13000F59C27970F"] = SQUARE, -- Withermaw Den Watcher
-  ["0xF13000F59827970D"] = MOON, -- Withermaw Pathfinder
+  ["0xF13000F59C27970F"] = CIRCLE, -- Withermaw Den Watcher
+  ["0xF13000F59827970D"] = STAR, -- Withermaw Pathfinder
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "chieftain_1", {
   ["0xF13000F5972796CF"] = SKULL, -- Withermaw Shaman
   ["0xF13000F5932796CD"] = CROSS, -- Enraged Withermaw
-  ["0xF13000F5932796CC"] = SQUARE, -- Enraged Withermaw
+  ["0xF13000F5932796CC"] = CIRCLE, -- Enraged Withermaw
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "village_1", {
@@ -2855,8 +2855,8 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "village_1", {
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "pre_kronn", {
-  ["0xF13000F59C2796C2"] = SQUARE, -- Withermaw Den Watcher
-  ["0xF13000F59B2796C3"] = MOON, -- Withermaw Tracker
+  ["0xF13000F59C2796C2"] = CIRCLE, -- Withermaw Den Watcher
+  ["0xF13000F59B2796C3"] = STAR, -- Withermaw Tracker
   ["0xF13000F5962796C5"] = SKULL, -- Withermaw Defiler
   ["0xF13000F5992796C4"] = CROSS, -- Withermaw Totemic
 })
@@ -2864,7 +2864,7 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "pre_kronn", {
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "chieftain_2", {
   ["0xF13000F5992796F1"] = SKULL, -- Withermaw Totemic
   ["0xF13000F5932796F5"] = CROSS, -- Enraged Withermaw
-  ["0xF13000F5932796F2"] = SQUARE, -- Enraged Withermaw
+  ["0xF13000F5932796F2"] = CIRCLE, -- Enraged Withermaw
   ["0xF13000F5932796F3"] = UNMARKED, -- Enraged Withermaw
   ["0xF13000F5932796F4"] = UNMARKED, -- Enraged Withermaw
 })
@@ -2872,21 +2872,21 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "chieftain_2", {
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "chieftain_3", {
   ["0xF13000F59C2796D4"] = SKULL, -- Withermaw Den Watcher
   ["0xF13000F59B2796D5"] = CROSS, -- Withermaw Tracker
-  ["0xF13000F5982796D3"] = SQUARE, -- Withermaw Pathfinder
-  ["0xF13000F5932796D6"] = MOON, -- Enraged Withermaw
+  ["0xF13000F5982796D3"] = CIRCLE, -- Withermaw Pathfinder
+  ["0xF13000F5932796D6"] = STAR, -- Enraged Withermaw
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "chieftain_2b", {
   ["0xF13000F59B2796F9"] = SKULL, -- Withermaw Tracker
   ["0xF13000F5932796FA"] = CROSS, -- Enraged Withermaw
-  ["0xF13000F5932796FB"] = SQUARE, -- Enraged Withermaw
+  ["0xF13000F5932796FB"] = CIRCLE, -- Enraged Withermaw
   ["0xF13000F5932796FC"] = UNMARKED, -- Enraged Withermaw
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "chieftain_4", {
   ["0xF13000F5932796DB"] = SKULL, -- Enraged Withermaw
   ["0xF13000F5932796D7"] = CROSS, -- Enraged Withermaw
-  ["0xF13000F5932796D8"] = SQUARE, -- Enraged Withermaw
+  ["0xF13000F5932796D8"] = CIRCLE, -- Enraged Withermaw
   ["0xF13000F5932796DA"] = UNMARKED, -- Enraged Withermaw
   ["0xF13000F5932796D9"] = UNMARKED, -- Enraged Withermaw
 })
@@ -2894,11 +2894,11 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "chieftain_4", {
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "chieftain_5", {
   ["0xF13000F59C2796DE"] = SKULL, -- Withermaw Den Watcher
   ["0xF13000F5972796DD"] = CROSS, -- Withermaw Shaman
-  ["0xF13000F59B2796DF"] = SQUARE, -- Withermaw Tracker
+  ["0xF13000F59B2796DF"] = CIRCLE, -- Withermaw Tracker
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "chieftain_7", {
-  ["0xF13000F59D2796E1"] = SQUARE, -- Withermaw Ursa
+  ["0xF13000F59D2796E1"] = CIRCLE, -- Withermaw Ursa
   ["0xF13000F5972796E0"] = CROSS, -- Withermaw Shaman
   ["0xF13000F5962796E2"] = SKULL, -- Withermaw Defiler
   ["0xF13000F5932796E3"] = UNMARKED, -- Enraged Withermaw
@@ -2909,7 +2909,7 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "chieftain_7", {
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "chieftain_6", {
-  ["0xF13000F59D2796E8"] = SQUARE, -- Withermaw Ursa
+  ["0xF13000F59D2796E8"] = CIRCLE, -- Withermaw Ursa
   ["0xF13000F5992796EA"] = CROSS, -- Withermaw Totemic
   ["0xF13000F5962796E9"] = SKULL, -- Withermaw Defiler
   ["0xF13000F5932796EE"] = UNMARKED, -- Enraged Withermaw
@@ -2933,13 +2933,13 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "chieftain_shadowkeepers", {
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "chieftain_2c", {
   ["0xF13000F5982796F7"] = SKULL, -- Withermaw Pathfinder
   ["0xF13000F5932796F8"] = CROSS, -- Enraged Withermaw
-  ["0xF13000F5932796F6"] = SQUARE, -- Enraged Withermaw
+  ["0xF13000F5932796F6"] = CIRCLE, -- Enraged Withermaw
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "chieftain_2d", {
   ["0xF13000F5962796FF"] = SKULL, -- Withermaw Defiler
   ["0xF13000F5932796FE"] = CROSS, -- Enraged Withermaw
-  ["0xF13000F5932796FD"] = SQUARE, -- Enraged Withermaw
+  ["0xF13000F5932796FD"] = CIRCLE, -- Enraged Withermaw
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "chieftain_2e", {
@@ -2950,36 +2950,36 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "chieftain_2e", {
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "chieftain_2f", {
   ["0xF13000F593279703"] = SKULL, -- Enraged Withermaw
   ["0xF13000F593279702"] = CROSS, -- Enraged Withermaw
-  ["0xF13000F593279704"] = SQUARE, -- Enraged Withermaw
+  ["0xF13000F593279704"] = CIRCLE, -- Enraged Withermaw
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "corruption_1", {
   ["0xF13000F59F279A35"] = SKULL, -- Corruption of Loktanag
   ["0xF13000F59C279A34"] = CROSS, -- Withermaw Den Watcher
-  ["0xF13000F598279A33"] = SQUARE, -- Withermaw Pathfinder
+  ["0xF13000F598279A33"] = CIRCLE, -- Withermaw Pathfinder
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "center_upper_2", {
   ["0xF13000F59327972A"] = SKULL, -- Enraged Withermaw
   ["0xF13000F59327972C"] = CROSS, -- Enraged Withermaw
-  ["0xF13000F59327972B"] = SQUARE, -- Enraged Withermaw
+  ["0xF13000F59327972B"] = CIRCLE, -- Enraged Withermaw
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "center_loose", {
   ["0xF13000F59D279730"] = DIAMOND, -- Withermaw Ursa
-  ["0xF13000F59B27972F"] = CIRCLE, -- Withermaw Tracker
+  ["0xF13000F59B27972F"] = SQUARE, -- Withermaw Tracker
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "center_upper_1", {
   ["0xF13000F597279728"] = CROSS, -- Withermaw Shaman
   ["0xF13000F599279729"] = SKULL, -- Withermaw Totemic
-  ["0xF13000F598279726"] = SQUARE, -- Withermaw Pathfinder
+  ["0xF13000F598279726"] = CIRCLE, -- Withermaw Pathfinder
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "left_upper_5", {
   ["0xF13000F596279731"] = SKULL, -- Withermaw Defiler
   ["0xF13000F593279733"] = CROSS, -- Enraged Withermaw
-  ["0xF13000F593279732"] = SQUARE, -- Enraged Withermaw
+  ["0xF13000F593279732"] = CIRCLE, -- Enraged Withermaw
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "rotgrowl", {
@@ -2990,13 +2990,13 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "rotgrowl", {
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "corruption_2", {
   ["0xF13000F59F27975E"] = SKULL, -- Corruption of Loktanag
   ["0xF13000F59F27975F"] = CROSS, -- Corruption of Loktanag
-  ["0xF13000F59E27975D"] = SQUARE, -- Tainted Mass
+  ["0xF13000F59E27975D"] = CIRCLE, -- Tainted Mass
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "corruption_3", {
   ["0xF13000F596279757"] = SKULL, -- Withermaw Defiler
   ["0xF13000F59E279759"] = CROSS, -- Tainted Mass
-  ["0xF13000F599279758"] = SQUARE, -- Withermaw Totemic
+  ["0xF13000F599279758"] = CIRCLE, -- Withermaw Totemic
 })
 
 -- addToDefaultNpcsToMark(L["Timbermaw Hold"], "globules_1", {
@@ -3044,14 +3044,14 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "corruption_3", {
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "corruption_4", {
   ["0xF13000F59627975C"] = SKULL, -- Withermaw Defiler
   ["0xF13000F59F27975B"] = CROSS, -- Corruption of Loktanag
-  ["0xF13000F59F27975A"] = SQUARE, -- Corruption of Loktanag
+  ["0xF13000F59F27975A"] = CIRCLE, -- Corruption of Loktanag
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "twisted_rumblers", {
   ["0xF13000F5A0279A28"] = SKULL, -- Twisted Rumbler
   ["0xF13000F5A0279A29"] = CROSS, -- Twisted Rumbler
-  ["0xF13000F5A0279A2A"] = SQUARE, -- Twisted Rumbler
-  ["0xF13000F5A0279A2B"] = MOON, -- Twisted Rumbler
+  ["0xF13000F5A0279A2A"] = CIRCLE, -- Twisted Rumbler
+  ["0xF13000F5A0279A2B"] = STAR, -- Twisted Rumbler
   ["0xF13000F5A0279A2C"] = TRIANGLE, -- Twisted Rumbler
 })
 
@@ -3064,20 +3064,20 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "corruption_5", {
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "kronn", {
   ["0xF13000F5962796C7"] = SKULL, -- Withermaw Defiler
   ["0xF13000F59B2796C6"] = CROSS, -- Withermaw Tracker
-  ["0xF13000F5982796C8"] = SQUARE, -- Withermaw Pathfinder
+  ["0xF13000F5982796C8"] = CIRCLE, -- Withermaw Pathfinder
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "right_lower_3", {
   ["0xF13000F59C279D64"] = CROSS, -- Withermaw Den Watcher
   ["0xF13000F599279D66"] = SKULL, -- Withermaw Totemic
-  ["0xF13000F598279D65"] = SQUARE, -- Withermaw Pathfinder
+  ["0xF13000F598279D65"] = CIRCLE, -- Withermaw Pathfinder
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "right_hut_1", {
   ["0xF13000F5A4279DA9"] = SKULL, -- Foulheart Hellcaller
   ["0xF13000F5A4279DAA"] = CROSS, -- Foulheart Hellcaller
-  ["0xF13000F59D279DAC"] = MOON, -- Withermaw Ursa
-  ["0xF13000F599279DAB"] = SQUARE, -- Withermaw Totemic
+  ["0xF13000F59D279DAC"] = STAR, -- Withermaw Ursa
+  ["0xF13000F599279DAB"] = CIRCLE, -- Withermaw Totemic
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "right_patrol", {
@@ -3086,16 +3086,16 @@ addToDefaultNpcsToMark(L["Timbermaw Hold"], "right_patrol", {
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "right_ramp_4", {
   ["0xF13000F5A4279DA6"] = CROSS, -- Foulheart Hellcaller
-  ["0xF13000F5A2279DA5"] = SQUARE, -- Foulheart Satyr
-  ["0xF13000F59D279DA3"] = MOON, -- Withermaw Ursa
+  ["0xF13000F5A2279DA5"] = CIRCLE, -- Foulheart Satyr
+  ["0xF13000F59D279DA3"] = STAR, -- Withermaw Ursa
   ["0xF13000F596279DA4"] = SKULL, -- Withermaw Defiler
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "right_ramp_5", {
   ["0xF13000F5A5279D9F"] = SKULL, -- Son of Ursol
   ["0xF13000F5A5279D9D"] = CROSS, -- Son of Ursol
-  ["0xF13000F5A5279D9E"] = SQUARE, -- Son of Ursol
-  ["0xF13000F5A5279DA0"] = MOON, -- Son of Ursol
+  ["0xF13000F5A5279D9E"] = CIRCLE, -- Son of Ursol
+  ["0xF13000F5A5279DA0"] = STAR, -- Son of Ursol
 })
 
 addToDefaultNpcsToMark(L["Timbermaw Hold"], "inner_1", {
