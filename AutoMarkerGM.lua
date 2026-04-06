@@ -279,7 +279,7 @@ local function AM_UnitPopup_HideButtons()
     end
   end
 end
-UnitPopup_HideButtons = PostHookFunction(UnitPopup_HideButtons,AM_UnitPopup_HideButtons)
+--UnitPopup_HideButtons = PostHookFunction(UnitPopup_HideButtons,AM_UnitPopup_HideButtons)
 
 local function AM_UnitPopup_OnClick()
   local dropdownFrame = getglobal(UIDROPDOWNMENU_INIT_MENU);
