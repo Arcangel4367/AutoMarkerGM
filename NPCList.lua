@@ -3121,13 +3121,13 @@ addToDefaultNpcsToMark(L["Onyxia's Lair"], "trash_1", {
 addToDefaultNpcsToMark(L["Onyxia's Lair"], "trash_2", {
   ["0xF13000BF782792EC"] = SKULL, -- Onyxian Inciter
   ["0xF13000BF792792EB"] = CROSS, -- Onyxian Flamespawn
-  ["0xF13000BF792792EA"] = SQUARE, -- Onyxian Flamespawn
+  ["0xF13000BF792792EA"] = CIRCLE, -- Onyxian Flamespawn
 })
 
 addToDefaultNpcsToMark(L["Onyxia's Lair"], "trash_3", {
   ["0xF130002F6100CB55"] = SKULL, -- Onyxian Warder
   ["0xF13000BF782792E8"] = CROSS, -- Onyxian Inciter
-  ["0xF13000BF782792E9"] = SQUARE, -- Onyxian Inciter
+  ["0xF13000BF782792E9"] = CIRCLE, -- Onyxian Inciter
 })
 
 addToDefaultNpcsToMark(L["Onyxia's Lair"], "trash_4", {
@@ -3138,8 +3138,8 @@ addToDefaultNpcsToMark(L["Onyxia's Lair"], "trash_4", {
 addToDefaultNpcsToMark(L["Onyxia's Lair"], "trash_5", {
   ["0xF130002F612792F2"] = SKULL, -- Onyxian Warder
   ["0xF13000BF782792F1"] = CROSS, -- Onyxian Inciter
-  ["0xF13000BF782792F0"] = SQUARE, -- Onyxian Inciter
-  ["0xF13000BF792792ED"] = MOON, -- Onyxian Flamespawn
+  ["0xF13000BF782792F0"] = CIRCLE, -- Onyxian Inciter
+  ["0xF13000BF792792ED"] = STAR, -- Onyxian Flamespawn
 })
 
 -- ony path
